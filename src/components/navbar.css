@@ -1,0 +1,15 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+}

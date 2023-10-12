@@ -18,21 +18,23 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="Shotclock">
-        <div className="Team1">
+      <div className="shotclock">
+        <div className="team1">
           <h1>Team 1</h1>
-          <h2>Score: {team1.score}</h2>
-          <h4>FGM: {team1.fgm}</h4>
-          <h4>FGA: {team1.fga}</h4>
+          <h2 className="score">{team1.score}</h2>
+          <h4>
+            {team1.fgm}/{team1.fga}
+          </h4>
         </div>
-        <div className="Team2">
+        <div className="team2">
           <h1>Team 2</h1>
-          <h2>Score: {team2.score}</h2>
-          <h4>FGM: {team2.fgm}</h4>
-          <h4>FGA: {team2.fga}</h4>
+          <h2 className="score">{team2.score}</h2>
+          <h4>
+            {team2.fgm}/{team2.fga}
+          </h4>
         </div>
       </div>
-      <div className="Buttons">
+      <div className="buttons">
         <div className="row">
           <div className="column">
             <button

@@ -6,7 +6,8 @@
   justify-content: center;
 }
 
-.Scoreboard {
+.shotclock {
+  font-family: monospace;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,9 +17,68 @@
   box-sizing: border-box;
   height: fit-content;
 }
-.Team1 {
+.team1 {
   padding: 40px;
+  color: white;
 }
-.Team2 {
+.team2 {
   padding: 40px;
+  color: white;
+}
+
+.score {
+  font-family: monospace;
+  font-size: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: fit-content;
+  margin: 0px;
+  color: white;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  border-radius: 7.8px;
+  border: #000000;
+  margin: 5px;
+  background-color: transparent;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#miss {
+  background-color: white;
+  color: black;
+}
+#miss:hover {
+  background-color: lightgray;
+  color: black;
+}
+#two {
+  background-color: white;
+  color: black;
+}
+#two:hover {
+  background-color: lightgray;
+  color: black;
+}
+#three {
+  background-color: white;
+  color: black;
+}
+#three:hover {
+  background-color: lightgray;
+  color: black;
+}
+#reset {
+  background-color: #552583;
+  color: #fdb927;
+}
+#reset:hover {
+  background-color: #4d2176;
+  color: #fdb927;
 }
