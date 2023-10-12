@@ -18,9 +18,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="Scoreboard">
-        {" "}
-        {/* Scoreboard */}
+      <div className="Shotclock">
         <div className="Team1">
           <h1>Team 1</h1>
           <h2>Score: {team1.score}</h2>
@@ -33,11 +31,8 @@ export default function App() {
           <h4>FGM: {team2.fgm}</h4>
           <h4>FGA: {team2.fga}</h4>
         </div>
-      </div>{" "}
-      {/* End Scoreboard */}
+      </div>
       <div className="Buttons">
-        {" "}
-        {/* Buttons */}
         <div className="row">
           <div className="column">
             <button
@@ -128,8 +123,7 @@ export default function App() {
         >
           Reset
         </button>
-      </div>{" "}
-      {/* End Buttons */}
+      </div>
     </div>
   );
 }
